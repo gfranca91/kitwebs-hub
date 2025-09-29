@@ -1,9 +1,10 @@
+// src/app/layout.tsx
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,20 +20,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8645025460170789"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
+
       <body
         className={`${inter.className} flex flex-col min-h-screen text-gray-300`}
       >
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
-
-        <Script
-          id="adsense-script"
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8645025460170789"
-          crossOrigin="anonymous"
-          strategy="beforeInteractive"
-        />
       </body>
     </html>
   );
