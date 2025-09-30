@@ -1,3 +1,73 @@
+# 🚀 KitWebs - Online Tools Portal
+
+This is the main repository for the KitWebs ecosystem, a portal that centralizes a collection of useful, free, and open-source web tools.
+
+**➡️ Visit the Live Site: [https://kitwebs.com.br](https://kitwebs.com.br)**
+
+---
+
+## ✨ Features
+
+- **Tool Gallery:** A homepage that displays and describes all available tools in the ecosystem.
+- **Subdomain Architecture:** Each tool is hosted on its own dedicated subdomain (e.g., `ip.kitwebs.com.br`), ensuring a scalable and professional architecture.
+- **Unified Navigation:** A consistent header and footer (to be unified via a component library) for a cohesive user experience.
+- **Informational Pages:** Includes essential pages like "About" and "Privacy Policy," important for user trust and requirements from platforms like AdSense.
+- **Responsive Design:** The interface adapts to different screen sizes, from desktops to mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+- **[Next.js](https://nextjs.org/)** - React Framework for production, using the **App Router**.
+- **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript.
+- **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework.
+- **[Vercel](https://vercel.com/)** - Deployment and hosting platform.
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to run this project locally.
+
+**1. Clone the repository**
+
+```bash
+git clone [https://github.com/gfranca91/kitwebs-hub.git](https://github.com/gfranca91/kitwebs-hub.git)
+```
+
+**2. Navigate to the project folder**
+
+```bash
+cd kitwebs-hub
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+<br>
+
+---
+
 # 🚀 KitWebs - Portal de Ferramentas Online
 
 Este é o repositório do site principal do ecossistema KitWebs, um portal que centraliza uma coleção de ferramentas web úteis, gratuitas e de código aberto.
@@ -67,67 +137,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 <br>
 
 ---
-
-# 🚀 KitWebs - Online Tools Portal
-
-This is the main repository for the KitWebs ecosystem, a portal that centralizes a collection of useful, free, and open-source web tools.
-
-**➡️ Visit the Live Site: [https://kitwebs.com.br](https://kitwebs.com.br)**
-
----
-
-## ✨ Features
-
-- **Tool Gallery:** A homepage that displays and describes all available tools in the ecosystem.
-- **Subdomain Architecture:** Each tool is hosted on its own dedicated subdomain (e.g., `ip.kitwebs.com.br`), ensuring a scalable and professional architecture.
-- **Unified Navigation:** A consistent header and footer (to be unified via a component library) for a cohesive user experience.
-- **Informational Pages:** Includes essential pages like "About" and "Privacy Policy," important for user trust and requirements from platforms like AdSense.
-- **Responsive Design:** The interface adapts to different screen sizes, from desktops to mobile devices.
-
----
-
-## 🛠️ Tech Stack
-
-- **[Next.js](https://nextjs.org/)** - React Framework for production, using the **App Router**.
-- **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
-- **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript.
-- **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework.
-- **[Vercel](https://vercel.com/)** - Deployment and hosting platform.
-
----
-
-## 🚀 Getting Started
-
-Follow the steps below to run this project locally.
-
-**1. Clone the repository**
-
-```bash
-git clone [https://github.com/gfranca91/kitwebs-hub.git](https://github.com/gfranca91/kitwebs-hub.git)
-```
-
-**2. Navigate to the project folder**
-
-```bash
-cd kitwebs-hub
-```
-
-**3. Install dependencies**
-
-```bash
-npm install
-```
-
-**4. Start the development server**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
