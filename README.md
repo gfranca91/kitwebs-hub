@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 KitWebs - Portal de Ferramentas Online
 
-## Getting Started
+Este é o repositório do site principal do ecossistema KitWebs, um portal que centraliza uma coleção de ferramentas web úteis, gratuitas e de código aberto.
 
-First, run the development server:
+**➡️ Visite o Site: [https://kitwebs.com.br](https://kitwebs.com.br)**
+
+---
+
+## ✨ Funcionalidades
+
+- **Galeria de Ferramentas:** Uma página inicial que exibe e descreve todas as ferramentas disponíveis no ecossistema.
+- **Arquitetura de Subdomínios:** Cada ferramenta é hospedada em seu próprio subdomínio dedicado (ex: `ip.kitwebs.com.br`), garantindo uma arquitetura escalável e profissional.
+- **Navegação Unificada:** Um cabeçalho e rodapé consistentes (a serem unificados via biblioteca de componentes) para uma experiência de usuário coesa.
+- **Páginas Informativas:** Inclui páginas essenciais como "Sobre" e "Política de Privacidade", importantes para a confiança do usuário e para requisitos de plataformas como o AdSense.
+- **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela, de desktops a dispositivos móveis.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **[Next.js](https://nextjs.org/)** - Framework React para produção, utilizando o **App Router**.
+- **[React](https://reactjs.org/)** - Biblioteca para construção de interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)** - Superset do JavaScript que adiciona tipagem estática.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework de CSS utility-first para estilização rápida.
+- **[Vercel](https://vercel.com/)** - Plataforma de deploy e hospedagem.
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+Siga os passos abaixo para rodar este projeto na sua máquina local.
+
+**1. Clone o repositório**
+
+```bash
+git clone [https://github.com/gfranca91/kitwebs-hub.git](https://github.com/gfranca91/kitwebs-hub.git)
+```
+
+**2. Navegue até a pasta do projeto**
+
+```bash
+cd kitwebs-hub
+```
+
+**3. Instale as dependências**
+
+```bash
+npm install
+```
+
+**4. Inicie o servidor de desenvolvimento**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 Licença
 
-## Learn More
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 🚀 KitWebs - Online Tools Portal
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This is the main repository for the KitWebs ecosystem, a portal that centralizes a collection of useful, free, and open-source web tools.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**➡️ Visit the Live Site: [https://kitwebs.com.br](https://kitwebs.com.br)**
+
+---
+
+## ✨ Features
+
+- **Tool Gallery:** A homepage that displays and describes all available tools in the ecosystem.
+- **Subdomain Architecture:** Each tool is hosted on its own dedicated subdomain (e.g., `ip.kitwebs.com.br`), ensuring a scalable and professional architecture.
+- **Unified Navigation:** A consistent header and footer (to be unified via a component library) for a cohesive user experience.
+- **Informational Pages:** Includes essential pages like "About" and "Privacy Policy," important for user trust and requirements from platforms like AdSense.
+- **Responsive Design:** The interface adapts to different screen sizes, from desktops to mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+- **[Next.js](https://nextjs.org/)** - React Framework for production, using the **App Router**.
+- **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript.
+- **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework.
+- **[Vercel](https://vercel.com/)** - Deployment and hosting platform.
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to run this project locally.
+
+**1. Clone the repository**
+
+```bash
+git clone [https://github.com/gfranca91/kitwebs-hub.git](https://github.com/gfranca91/kitwebs-hub.git)
+```
+
+**2. Navigate to the project folder**
+
+```bash
+cd kitwebs-hub
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
