@@ -13,6 +13,12 @@ const tools = [
       "Transforme URLs longas e complicadas em links curtos, memoráveis e fáceis de compartilhar.",
     href: "https://encurtador.kitwebs.com.br",
   },
+  {
+    title: "Qual é o Meu IP?",
+    description:
+      "Descubra seu endereço de IP público e veja informações de geolocalização como cidade, país e provedor.",
+    href: "http://ip.kitwebs.com.br",
+  },
 ];
 
 export default function Home() {
